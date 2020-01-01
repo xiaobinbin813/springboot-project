@@ -13,13 +13,13 @@ import java.math.BigDecimal;
 @Data
 public class OrderDetail {
     @Id
-    private String detailID;
+    private String detailId;
 
     /**订单id*/
-    private String orderID;
+    private String orderId;
 
     /**商品id*/
-    private String productID;
+    private String productId;
 
     /**商品名称*/
     private String productName;
