@@ -1,4 +1,4 @@
-package com.imooc.dataobject;
+﻿package com.imooc.dataobject;
 
 import lombok.Data;
 
@@ -13,13 +13,13 @@ import java.math.BigDecimal;
 @Data
 public class OrderDetail {
     @Id
-    private String detailId;
+    private String detailID;
 
     /**订单id*/
-    private String orderId;
+    private String orderID;
 
     /**商品id*/
-    private String productId;
+    private String productID;
 
     /**商品名称*/
     private String productName;
